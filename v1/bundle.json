@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "minAppVersion": "0.1.0",
-  "publishedAt": "2026-11-17T02:25:00Z",
+  "publishedAt": "2026-11-17T03:35:00Z",
   "menu": [
     {
       "kind": "map",
@@ -910,7 +910,7 @@
       "blocks": [
         {
           "type": "box",
-          "html": "<p>Working in close proximity to powerlines, above or below the ground, has its hazards.</p><p>Each year, the workers in the Cotton Industry come in contact with electricity assets.</p><p>This includes contact with poles, wires and pillar boxes by vehicles, the loads they are carrying or their associated plant. Contact can occur during harvesting, spraying, moving machinery and plant from one location to another or when irrigating.</p>"
+          "html": "<p>Did You Know....Working in close proximity to powerlines, above or below the ground, has its hazards.</p><p>Each year, the workers in the Cotton Industry come in contact with electricity assets.</p><p>This includes contact with poles, wires and pillar boxes by vehicles, the loads they are carrying or their associated plant. Contact can occur during harvesting, spraying, moving machinery and plant from one location to another or when irrigating.</p>"
         },
         {
           "type": "image",
