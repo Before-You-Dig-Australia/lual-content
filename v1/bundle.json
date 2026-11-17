@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "minAppVersion": "0.1.0",
-  "publishedAt": "2026-11-17T02:00:00Z",
+  "publishedAt": "2026-11-17T02:25:00Z",
   "menu": [
     {
       "kind": "map",
@@ -112,7 +112,7 @@
       "blocks": [
         {
           "type": "heading",
-          "text": "What happens if overhead or underground powerlines are contacted"
+          "text": "What happens if overhead or underground powerlines are contacted? And some additonal text!"
         },
         {
           "type": "list",
