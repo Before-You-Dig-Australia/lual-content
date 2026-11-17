@@ -1,0 +1,1704 @@
+{
+  "schemaVersion": "1.0.0",
+  "minAppVersion": "0.1.0",
+  "publishedAt": "2026-11-17T02:00:00Z",
+  "menu": [
+    {
+      "kind": "map",
+      "title": "Look up and Live Map",
+      "image": "images/menu/map.png"
+    },
+    {
+      "kind": "page",
+      "title": "Exclusion Zone",
+      "image": "images/menu/exclusion-zone.png",
+      "page": "exclusion-zone"
+    },
+    {
+      "kind": "page",
+      "title": "Safety Advice",
+      "image": "images/menu/safety-advice.png",
+      "page": "safety-advice"
+    },
+    {
+      "kind": "list",
+      "title": "Your Industry",
+      "image": "images/menu/industry.png",
+      "list": "your-industry",
+      "items": [
+        {
+          "title": "Agriculture",
+          "image": "images/industries/agriculture.png",
+          "page": "industry-agriculture"
+        },
+        {
+          "title": "Irrigators",
+          "image": "images/industries/irrigators.png",
+          "page": "industry-irrigators"
+        },
+        {
+          "title": "Cane",
+          "image": "images/industries/cane.png",
+          "page": "industry-cane"
+        },
+        {
+          "title": "Cotton",
+          "image": "images/industries/cotton.png",
+          "page": "industry-cotton"
+        },
+        {
+          "title": "Trucking",
+          "image": "images/industries/trucking.png",
+          "page": "industry-trucking"
+        },
+        {
+          "title": "Building & Construction",
+          "image": "images/industries/building-construction.png",
+          "page": "industry-building-construction"
+        },
+        {
+          "title": "Plumbers",
+          "image": "images/industries/plumbers.png",
+          "page": "industry-plumbers"
+        },
+        {
+          "title": "Low-Level Flying",
+          "image": "images/industries/low-level-flying.png",
+          "page": "industry-low-level-flying"
+        }
+      ]
+    },
+    {
+      "kind": "page",
+      "title": "Contact with Powerlines",
+      "image": "images/menu/contact-with-powerlines.png",
+      "page": "contact-with-powerlines"
+    },
+    {
+      "kind": "page",
+      "title": "Structures",
+      "image": "images/menu/structures.png",
+      "page": "structures"
+    },
+    {
+      "kind": "page",
+      "title": "Powerline Markers",
+      "image": "images/menu/powerline-markers.png",
+      "page": "powerline-markers"
+    },
+    {
+      "kind": "page",
+      "title": "Transporting High Load",
+      "image": "images/menu/transporting-high-load.png",
+      "page": "transporting-high-load"
+    },
+    {
+      "kind": "page",
+      "title": "Trees and Powerlines",
+      "image": "images/menu/trees-and-powerlines.png",
+      "page": "trees-and-powerlines"
+    },
+    {
+      "kind": "page",
+      "title": "Fires and Powerlines",
+      "image": "images/menu/fires-and-powerlines.png",
+      "page": "fires-and-powerlines"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "contact-with-powerlines",
+      "title": "Contact Powerlines",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "What happens if overhead or underground powerlines are contacted"
+        },
+        {
+          "type": "list",
+          "style": "number",
+          "items": [
+            "The machinery or vehicle will become ‘live’ at the same voltage as the powerlines contacted, and electricity will attempt to pass through the vehicle to the ground.",
+            "Anything in contact with the powerlines will also become ‘live’, such as fences and trees.",
+            "A potentially dangerous electrical field will be created around anything in contact with the powerline. This field extends for approximately 10 metres around these items."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What should you do if contact occurs"
+        },
+        {
+          "type": "list",
+          "style": "number",
+          "items": [
+            "Try not to panic, remain calm and stay in the vehicle until the power has been isolated and the powerlines are removed. Don’t risk being electrocuted by attempting to leave the vehicle before power is disconnected.",
+            "Advise anyone near the incident site to stay a minimum of 10 metres from the vehicle and anything else in contact with the powerlines.",
+            "Treat all powerlines as if they are ‘live’.",
+            "Call <a href=\"tel:000\">000 immediately</a> to report powerlines down and a life-threatening situation."
+          ]
+        },
+        {
+          "type": "link",
+          "label": "What to do if your vehicle brings down powerlines",
+          "target": {
+            "kind": "page",
+            "page": "exit-car"
+          },
+          "style": "black",
+          "icon": "question"
+        },
+        {
+          "type": "stay-call-wait",
+          "vehicle": "vehicle"
+        },
+        {
+          "type": "box",
+          "html": "<p>We recommend that operators of machinery practice this jump/shuffle technique on a regular basis</p>"
+        },
+        {
+          "type": "heading",
+          "text": "What if the person in the vehicle needs to be evacuated"
+        },
+        {
+          "type": "text",
+          "html": "<p>An emergency evacuation is extremely dangerous and should only be attempted as a last resort, such as if the vehicle is on fire. Remember to never approach the vehicle to assist in an evacuation and always treat all powerlines as if they are ‘live’.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Tyres can explode"
+        },
+        {
+          "type": "text",
+          "html": "<p>When a vehicle contacts overhead powerlines, a massive electrical current flows through the vehicle and its tyres to earth. This can cause the tyres to explode on contact or to start burning on the inside.</p><p>Tyres burning on the inside creates a potential hazard where the build-up of gases and heat can cause the tyre to explode at a later time, even 24 hours after the incident. Flying debris from the tyres exploding could potentially injure any persons in close proximity to the vehicle.</p><p>Ensure that the vehicle is isolated with a 300m exclusion zone for a minimum of 24 hours. After this, have the vehicle thoroughly inspected for tyre and mechanical damage.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "exclusion-zone",
+      "title": "Exclusion Zone",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<p>An exclusion zone is a safety envelope around an overhead powerline. Exclusion zones keep people, operating plant, and vehicles a safe distance from energised overhead powerlines. No part of a worker, operating plant, or a vehicle should enter an exclusion zone while the overhead powerline is energised (live).</p><p>Exclusion zone measurements depend on the voltage of the powerline, type of work being performed, and the qualifications of people involved.</p><p>Generally, workers and their equipment must maintain exclusion zones around powerlines as follows:</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>3 metres for voltages up to 132kV</strong>",
+            "<strong>6 metres for voltages up to 330kV</strong>"
+          ]
+        },
+        {
+          "type": "text",
+          "html": "<p>If the work that you and your staff are planning has the potential to encroach into powerline exclusion zones or if you are unsure, contact the network operator directly for safety advice before starting the job.</p><p>These exclusion zones can be reduced if the worker has been trained and approved as an Authorised Person. Contact the network operator directly for information on how to become an Authorised Person.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Safety Observer Zone"
+        },
+        {
+          "type": "text",
+          "html": "<p>A Safety Observer Zone is the area where machinery or equipment is operating where any part of the machinery or equipment COULD enter the exclusion zone. A trained safety observer MUST be used if the equipment can reach the exclusion zone. Encroachment into the exclusion zone is strictly forbidden.</p><p>To ensure the equipment does not come within an unsafe distance, we recommend that a Safety Observer Area of 10 metres be delineated on either side of overhead powerlines as per the diagram below. A Safety Observer SHOULD be used when machinery or equipment is operating in the Safety Observer Area.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Safety Observer"
+        },
+        {
+          "type": "text",
+          "html": "<p>A Safety Observer or spotter is a person who:</p>"
+        },
+        {
+          "type": "list",
+          "style": "letter",
+          "items": [
+            "<em>observes the operating plant; and</em>",
+            "<em>advises the plant operator if it is likely that the operating plant will enter the exclusion zone for an overhead powerline.</em>"
+          ]
+        },
+        {
+          "type": "text",
+          "html": "<p>Safety Observers undergo specific training and must be competent to perform the role in observing, warning, and communicating effectively with the plant operator. Contact the network operator directly for information on how to become a qualified Safety Observer.</p>"
+        },
+        {
+          "type": "link",
+          "label": "Exclusion Zone Calculator",
+          "target": {
+            "kind": "tool",
+            "tool": "exclusion-zone"
+          },
+          "style": "black",
+          "icon": "tool"
+        },
+        {
+          "type": "image",
+          "src": "images/exclusionzones1.webp",
+          "alt": "Diagram: untrained person exclusion zones. 6 m for powerlines up to and including 330 kV, 3 m for powerlines up to 132 kV, and a 10 m Safety Observer Area either side of the powerline."
+        },
+        {
+          "type": "image",
+          "src": "images/exclusionzones2.webp",
+          "alt": "Diagram: a person standing on a loaded truck under a powerline, with a 3 m exclusion zone up to 132 kV. A permit is required if the transit height exceeds 4.6 m."
+        },
+        {
+          "type": "text",
+          "html": "<p><strong>All Machinery operators and other workers working near powerlines should be aware of their safety duties under their relevant state electrical safety act and adopt safe work practices in accordance with the code of practice “Working Near Overhead and Underground Electric Lines”.</strong></p>"
+        }
+      ]
+    },
+    {
+      "slug": "exit-car",
+      "title": "Stay - Call - Wait",
+      "blocks": [
+        {
+          "type": "step",
+          "number": 1,
+          "text": "STAY in the vehicle. Call 000 immediately.",
+          "image": "images/exitcar1.webp",
+          "alt": "A car touching a powerline, with the driver inside calling 000"
+        },
+        {
+          "type": "step",
+          "number": 2,
+          "text": "If there's an immediate danger, like fire, and evacuation is ABSOLUTELY necessary, assess your escape route and check for fallen powerlines.",
+          "image": "images/exitcar2.webp",
+          "alt": "The driver looking out of the car for fallen powerlines"
+        },
+        {
+          "type": "step",
+          "number": 3,
+          "text": "Exit the vehicle by jumping – make sure to land with both feet together.",
+          "image": "images/exitcar3.webp",
+          "alt": "Jumping clear of the car and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 4,
+          "text": "When jumping, don’t touch the vehicle and the ground at the same time.",
+          "image": "images/exitcar4.webp",
+          "alt": "Crossed out: standing on the ground while touching the car"
+        },
+        {
+          "type": "step",
+          "number": 5,
+          "text": "Once you’ve landed with both feet together (be careful not to stumble or fall), jump or shuffle with your feet together away from the vehicle.",
+          "image": "images/exitcar3.webp",
+          "alt": "Jumping clear of the car and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 6,
+          "text": "Move in this way until you are at least 10 metres away from the vehicle. DO NOT go back.",
+          "image": "images/exitcar5.webp",
+          "alt": "Jumping away from the car with feet together, to at least 10 metres away"
+        }
+      ]
+    },
+    {
+      "slug": "exit-excavator",
+      "title": "Stay - Call - Wait",
+      "blocks": [
+        {
+          "type": "step",
+          "number": 1,
+          "text": "STAY in the vehicle. Call 000 immediately.",
+          "image": "images/exitexcavator1.webp",
+          "alt": "An excavator touching a powerline, with the driver inside calling 000"
+        },
+        {
+          "type": "step",
+          "number": 2,
+          "text": "If there's an immediate danger, like fire, and evacuation is ABSOLUTELY necessary, assess your escape route and check for fallen powerlines.",
+          "image": "images/exitexcavator2.webp",
+          "alt": "The driver looking out of the excavator for fallen powerlines"
+        },
+        {
+          "type": "step",
+          "number": 3,
+          "text": "Exit the vehicle by jumping – make sure to land with both feet together.",
+          "image": "images/exitexcavator3.webp",
+          "alt": "Jumping clear of the excavator and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 4,
+          "text": "When jumping, don’t touch the vehicle and the ground at the same time.",
+          "image": "images/exitexcavator4.webp",
+          "alt": "Crossed out: standing on the ground while touching the excavator"
+        },
+        {
+          "type": "step",
+          "number": 5,
+          "text": "Once you’ve landed with both feet together (be careful not to stumble or fall), jump or shuffle with your feet together away from the vehicle.",
+          "image": "images/exitexcavator3.webp",
+          "alt": "Jumping clear of the excavator and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 6,
+          "text": "Move in this way until you are at least 10 metres away from the vehicle. DO NOT go back.",
+          "image": "images/exitexcavator5.webp",
+          "alt": "Jumping away from the excavator with feet together, to at least 10 metres away"
+        }
+      ]
+    },
+    {
+      "slug": "exit-harvester",
+      "title": "Stay - Call - Wait",
+      "blocks": [
+        {
+          "type": "step",
+          "number": 1,
+          "text": "STAY in the vehicle. Call 000 immediately.",
+          "image": "images/exitharvester1.webp",
+          "alt": "A harvester touching a powerline, with the driver inside calling 000"
+        },
+        {
+          "type": "step",
+          "number": 2,
+          "text": "If there's an immediate danger, like fire, and evacuation is ABSOLUTELY necessary, assess your escape route and check for fallen powerlines.",
+          "image": "images/exitharvester2.webp",
+          "alt": "The driver looking out of the harvester for fallen powerlines"
+        },
+        {
+          "type": "step",
+          "number": 3,
+          "text": "Exit the vehicle by jumping – make sure to land with both feet together.",
+          "image": "images/exitharvester3.webp",
+          "alt": "Jumping clear of the harvester and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 4,
+          "text": "When jumping, don’t touch the vehicle and the ground at the same time.",
+          "image": "images/exitharvester4.webp",
+          "alt": "Crossed out: standing on the ground while touching the harvester"
+        },
+        {
+          "type": "step",
+          "number": 5,
+          "text": "Once you’ve landed with both feet together (be careful not to stumble or fall), jump or shuffle with your feet together away from the vehicle.",
+          "image": "images/exitharvester3.webp",
+          "alt": "Jumping clear of the harvester and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 6,
+          "text": "Move in this way until you are at least 10 metres away from the vehicle. DO NOT go back.",
+          "image": "images/exitharvester5.webp",
+          "alt": "Jumping away from the harvester with feet together, to at least 10 metres away"
+        }
+      ]
+    },
+    {
+      "slug": "exit-tractor",
+      "title": "Stay - Call - Wait",
+      "blocks": [
+        {
+          "type": "step",
+          "number": 1,
+          "text": "STAY in the vehicle. Call 000 immediately.",
+          "image": "images/exittractor1.webp",
+          "alt": "A tractor touching a powerline, with the driver inside calling 000"
+        },
+        {
+          "type": "step",
+          "number": 2,
+          "text": "If there's an immediate danger, like fire, and evacuation is ABSOLUTELY necessary, assess your escape route and check for fallen powerlines.",
+          "image": "images/exittractor2.webp",
+          "alt": "The driver looking out of the tractor for fallen powerlines"
+        },
+        {
+          "type": "step",
+          "number": 3,
+          "text": "Exit the vehicle by jumping – make sure to land with both feet together.",
+          "image": "images/exittractor3.webp",
+          "alt": "Jumping clear of the tractor and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 4,
+          "text": "When jumping, don’t touch the vehicle and the ground at the same time.",
+          "image": "images/exittractor4.webp",
+          "alt": "Crossed out: standing on the ground while touching the tractor"
+        },
+        {
+          "type": "step",
+          "number": 5,
+          "text": "Once you’ve landed with both feet together (be careful not to stumble or fall), jump or shuffle with your feet together away from the vehicle.",
+          "image": "images/exittractor3.webp",
+          "alt": "Jumping clear of the tractor and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 6,
+          "text": "Move in this way until you are at least 10 metres away from the vehicle. DO NOT go back.",
+          "image": "images/exittractor5.webp",
+          "alt": "Jumping away from the tractor with feet together, to at least 10 metres away"
+        }
+      ]
+    },
+    {
+      "slug": "exit-truck",
+      "title": "Stay - Call - Wait",
+      "blocks": [
+        {
+          "type": "step",
+          "number": 1,
+          "text": "STAY in the vehicle. Call 000 immediately.",
+          "image": "images/exittruck1.webp",
+          "alt": "A truck touching a powerline, with the driver inside calling 000"
+        },
+        {
+          "type": "step",
+          "number": 2,
+          "text": "If there's an immediate danger, like fire, and evacuation is ABSOLUTELY necessary, assess your escape route and check for fallen powerlines.",
+          "image": "images/exittruck2.webp",
+          "alt": "The driver looking out of the truck for fallen powerlines"
+        },
+        {
+          "type": "step",
+          "number": 3,
+          "text": "Exit the vehicle by jumping – make sure to land with both feet together.",
+          "image": "images/exittruck3.webp",
+          "alt": "Jumping clear of the truck and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 4,
+          "text": "When jumping, don’t touch the vehicle and the ground at the same time.",
+          "image": "images/exittruck4.webp",
+          "alt": "Crossed out: standing on the ground while touching the truck"
+        },
+        {
+          "type": "step",
+          "number": 5,
+          "text": "Once you’ve landed with both feet together (be careful not to stumble or fall), jump or shuffle with your feet together away from the vehicle.",
+          "image": "images/exittruck3.webp",
+          "alt": "Jumping clear of the truck and landing with both feet together"
+        },
+        {
+          "type": "step",
+          "number": 6,
+          "text": "Move in this way until you are at least 10 metres away from the vehicle. DO NOT go back.",
+          "image": "images/exittruck5.webp",
+          "alt": "Jumping away from the truck with feet together, to at least 10 metres away"
+        }
+      ]
+    },
+    {
+      "slug": "fires-and-powerlines",
+      "title": "Fire & Powerlines",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Our first priority is to ensure the safety of the community and our line workers. Fires burning beneath or near powerlines can endanger people, animals and objects, and have the potential to interrupt electricity supply to customers.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/firepower1.webp",
+          "alt": "Photo: a grass fire burning beside a road next to a power pole."
+        },
+        {
+          "type": "heading",
+          "text": "Report all fires near powerlines"
+        },
+        {
+          "type": "text",
+          "html": "<p>If you see a fire burning underneath or near a powerline and property or lives are at risk, ring Emergency Services immediately by calling triple zero (<a href=\"tel:000\">000</a>). All fires underneath or near a powerline should be reported as soon as possible, even if you are unsure what risk they pose.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Advise of all planned activities involving fire near powerlines"
+        },
+        {
+          "type": "text",
+          "html": "<p>Seek advice and approval as early as possible before undertaking any activity involving fire near powerlines. Early notification can ensure an appropriate response is taken if the fire should cause a fault on the network.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Flashovers"
+        },
+        {
+          "type": "text",
+          "html": "<p>The combination of dense smoke and hot gases generated by a large fire directly under or near a high voltage powerline can create a conductive path that increases the potential for a ‘flashover’.</p><p>A flashover is when electricity, especially at higher voltages, jumps across an air gap to create a conductive path. A flashover may occur between powerlines or from powerlines to the ground - this may be seen as a flash or heard as an explosion or loud cracking sound.</p><p>Under everyday conditions, the height of powerlines and their separations are designed to be entirely safe. However, a fire burning under or very close to the powerline can increase the distance that an electricity arc can jump.</p><p>Flashovers are potentially life threatening to a person standing in the near vicinity of the flashover (much like when lightning strikes the ground near a person). Flashovers can also cause damage to nearby equipment and the powerline, and can cause possible interruptions to power supply to homes and industry.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Fire behaviour"
+        },
+        {
+          "type": "text",
+          "html": "<p>Fire is unpredictable and can move quickly. Fire behaviour is influenced by a range of factors including:</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The amount, type, moisture content and location of fuel for the fire",
+            "The topography of the area, in particular the steepness of the slope",
+            "The time of day, weather and climatic conditions, including temperature, wind speed and direction. If you are involved in fire control activities, you should be aware of the hazards and potential consequences of fires near transmission lines so you can reasonably assess the risks."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Fighting fires near powerlines"
+        },
+        {
+          "type": "text",
+          "html": "<p>Energy Networks’ Australia, in consultation with emergency services groups across Australia, has produced National Guidelines on Electrical Safety for Emergency Personnel. We endorse the use of these guidelines.</p><p>The industry guidelines provide critical information relating specifically to fire control near high voltage powerlines, including the special conditions that apply to the use of water in fire control activities near powerlines.</p><p>We reference an extract from the National Guidelines on Electrical Safety for Emergency Personnel and afull version of the industry guidelines may be purchased from www.saiglobal.com or by calling 13 12 42.</p><p>If you are involved in fire management or control near high voltage powerlines, please familiarise yourself with these guidelines and the recommended control measures.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Safety advice for fires near powerlines"
+        },
+        {
+          "type": "text",
+          "html": "<p>For your safety, when there is a fire close to a powerline remember:</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Keep personnel, vehicles and attachments at least 25 metres from the powerline",
+            "Electricity, especially at high voltages, can ‘jump’ across several metres of air gap. This means that direct contact with the high voltage powerline is not required to produce a potentially fatal event",
+            "Smoke can act as a conductor. Fires burning on or near powerline easements can greatly increase the chances of a flashover occurring",
+            "Don’t count on rubber tyres on vehicles to stop a flashover from occurring",
+            "Powerlines can sag lower in times of high demand, high temperature and fires, reducing the ground clearance",
+            "Don’t stockpile, windrow or heap combustible material under high voltage powerlines",
+            "Exercise caution if using powerline easements to access fire locations, as readymade firebreaks, as a break from which to commence back-burning operations, or as a refuge area in a firestorm."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Hazards"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sagging powerlines due to failures or high temperature",
+            "Wood pole structures may fail causing powerlines to fall",
+            "Flashover may occur between powerlines or from powerlines to the ground or structures through burning vegetation (this may be seen as a flash or heard as an explosion)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Control measures"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Do not directly attack fires in cleared areas beneath powerlines",
+            "Do not spray water on or near powerlines or insulators from the ground or air",
+            "Wait for fire to burn clear of the cleared areas beneath the powerlines before commencing a mop-up operation",
+            "At all times treat the powerline as live until clearance has been given by electricity distribution personnel ON SITE",
+            "At all times keep personnel and vehicles at a minimum of 25m clear of a headfire, or a flank fire burning under or within 25m of the powerlines (refer to diagram illustrating a firefighting operation)",
+            "When working near or under live powerlines, approach no closer than 25m to the fire edge to conduct mop-up of grass fires. Mop-up may include the knockdown of low (less than 2m high) isolated flames/spots/smouldering logs which are not producing a convection column or heavy smoke plume. In such cases:"
+          ]
+        },
+        {
+          "type": "list",
+          "style": "dash",
+          "items": [
+            "Never direct the hose stream into the powerline",
+            "Never direct the hose stream into a smoke plume that is near (less than 25m from) or reaching powerlines. Keep stream no higher than a person’s head height",
+            "Never direct the hose stream at a burning bush or tree (more than head height) in a powerline easement"
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Bushes or trees burning in powerline easement present a real threat of creating a flashover to earth from powerlines – KEEP AT LEAST 25m CLEAR",
+            "When crossing powerline easement, ensure there is adequate clearance (which will vary between 3m to 8m depending on the voltage of the line) between the highest point of the vehicle (including aerials) and powerlines, avoiding areas with tall vegetation under lines."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Firefighting operation where fire and smoke plume are greater than 25 metres from high voltage powerlines"
+        },
+        {
+          "type": "image",
+          "src": "images/firepower2.webp",
+          "alt": "Diagram: firefighters working 25 metres or more from the powerlines, with the flame and heavy smoke plume not yet reaching the outer phase."
+        },
+        {
+          "type": "text",
+          "html": "<p>NOTE: Major powerlines are critical infrastructure. They support essential community services, and their de-energisation may have significant impact on public safety. Some smaller lines directly service critical sites such as sewerage, water, and communication facilities.</p><p>It is therefore preferable not to attempt fire control activities near energized lines where possible.</p><p>Where fire control activities (hazard reduction) are still considered necessary from the cleared area under powerlines, providing early advice will allow an assessment of risks associated with de-energising the powerline.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "industry-agriculture",
+      "title": "Agriculture Industry",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Working in close proximity to powerlines, above or below the ground, has its hazards.</p><p>Each year, the workers in the Agriculture Industry come in contact with electricity assets.</p><p>This includes contact with poles, wires and pillar boxes by vehicles, the loads they are carrying or their associated plant. Contact can occur during harvesting, spraying, moving machinery and plant from one location to another or when irrigating.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/agriculture1.webp",
+          "alt": "A tractor in a cane field beneath overhead powerlines"
+        },
+        {
+          "type": "heading",
+          "text": "Before you start work"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Before starting work, take the time to plan. Visit lookupandlive.com.au - our powerline planning map to identify powerline locations and make a plan to work safe.",
+            "Talk to the person in control of the property about any work areas which may be hazardous.",
+            "Know the location of overhead and underground powerlines, poles and stays on the property and their proximity to your work.",
+            "Complete a hazard assessment for each paddock and piece of machinery to be used.",
+            "Install visual markers in any areas where electrical hazards are identified prior to commencing work. Vision can be obstructed by machinery blind spots.",
+            "Monitor weather conditions closely as powerlines can sway in winds, sag as temperature increases and are difficult to see at dawn and dusk.",
+            "Be aware of reduced powerline heights resulting from damage, often indicated by uneven powerlines, excessive sag or slack stays.",
+            "Stay well clear of damaged powerlines and report any damage immediately on triple zero (<a href=\"tel:000\">000</a>).",
+            "Ensure operators are aware of the height of their machinery in both stowed and working positions.",
+            "Monitor closely any machinery being operated to ensure required powerline exclusion zone clearances are maintained.",
+            "Ensure all farm workers know the emergency procedures applicable for the work being carried out and the relevant emergency contacts."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Practice safe work habits"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identify all electrical hazards, assess the risks, establish and introduce control measures, and review control measures periodically. Control measures may include but may not be restricted to:"
+          ]
+        },
+        {
+          "type": "list",
+          "style": "dash",
+          "items": [
+            "Appropriate signage at least 10 metres either side of powerlines.",
+            "Visual indicators such as rotamarkers fitted to the powerlines (contact the network operator for advice).",
+            "Ground barriers where possible.",
+            "Informing workers of required work practices."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Assign a safety observer to each work team to guide machinery movements near overhead powerlines.",
+            "Ensure required exclusion zone clearances between machinery and powerlines are maintained.",
+            "Lower the ram/tramper to the transport position when relocating cotton module makers.",
+            "Build modules well away from overhead powerlines.",
+            "Make boll buggy pick-ups well clear of overhead powerlines.",
+            "Lower the bars on top of cotton pickers when relocating from paddock to paddock and farm to farm.",
+            "Carry out maintenance and storage activities well away from powerlines.",
+            "Contact the network operator directly about marking powerlines and power poles on your property"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Transporting a high load?"
+        },
+        {
+          "type": "text",
+          "html": "<p>If the height of your load or plant exceeds 4.6 metres, you are transporting a high load.</p><p>It’s essential that you submit a Notification to Transport High Loads form. You will be required to know your load dimensions (vehicle and load), proposed route, and times for transport. The network operator will scope and assess the route to ensure the high load will not contact overhead powerlines.</p><p>Before any person or company can transport a high load, authorisation to travel must be received in writing from the network operator.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/highload2.webp",
+          "alt": "Diagram: a truck carrying three large round bales. Permit required if transit height exceeds 4.6m"
+        },
+        {
+          "type": "link",
+          "label": "More information can be found in our High Loads Section",
+          "target": {
+            "kind": "page",
+            "page": "transporting-high-load"
+          }
+        },
+        {
+          "type": "link",
+          "label": "What to do if your tractor brings down powerlines",
+          "target": {
+            "kind": "page",
+            "page": "exit-tractor"
+          },
+          "style": "black",
+          "icon": "question"
+        },
+        {
+          "type": "stay-call-wait",
+          "vehicle": "tractor"
+        }
+      ]
+    },
+    {
+      "slug": "industry-building-construction",
+      "title": "Building & Construction",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Working in close proximity to powerlines, above or below the ground, has its hazards.</p><p>Each year, too many workers make contact with powerlines. This includes contact with poles, wires and pillar boxes by vehicles, the loads they are carrying or their associated plant.</p><p>Contact can occur when moving machinery and plant from one location to another, operating cranes and machinery or when working on roofs.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/buildingconstruct1.webp",
+          "alt": "A builder in a hard hat working on a timber roof frame, with powerlines behind"
+        },
+        {
+          "type": "heading",
+          "text": "Practice safe work habits"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Before starting work, take the time to plan.",
+            "Visit lookupandlive.com.au - our powerline planning map to identify powerline locations and make a plan to work safe.",
+            "Be aware of Electrical Safety Legislation relating to working around electricity. Ensure all workers are familiar with the relevant sections for work being undertaken.",
+            "Ensure workers have been suitably trained and are competent to perform the work being carried out.",
+            "Complete a risk assessment for each structure and piece of machinery to be used and review at the start of each day or if conditions change.",
+            "Ensure all new members of the workgroup, as well as any visitors to the site, are inducted to the Risk Assessment for any potential electrical hazards.",
+            "Consider including a specific check on any risk assessment forms, work instructions or quotation pads to draw workers’ attention to electrical safety.",
+            "Ensure safe distances are maintained from all powerlines.",
+            "Assign a Safety Observer to each work team to guide machinery movements or when handling material near overhead powerlines to ensure required clearances are maintained.",
+            "Ensure operators of machinery or delivery vehicles are aware of the height of their vehicle or load, and they have been advised of powerline locations.",
+            "Be aware of reduced powerline clearances resulting from damage, often indicated by uneven conductors, excessive sag, or slack stays.",
+            "Stay well clear of damaged powerlines and report any damage immediately on triple zero (<a href=\"tel:000\">000</a>).",
+            "Provide ground barriers to warn workers of the presence of overhead powerlines and underground cables.",
+            "Arrange for isolation of electricity supply or the application of visual indicators, such as Tigertails or powerline markers, onto the service and nearby powerlines by the Electrical Entity. (Tigertails provide visual indication of overhead powerlines, but DO NOT provide protection against electrical hazards.)",
+            "Be aware that activities such as making repairs to roofing or guttering, painting, water blasting and scaffolding can be dangerous if carried out too close to overhead service lines and powerlines.",
+            "Take extra care when handling roofing materials, especially when windy or at heights.",
+            "Ensure any long objects such as ladders and trestle planks are carried horizontally.",
+            "Be aware that under no circumstances must anything be attached to or built around powerlines, poles, pillar boxes or other Electrical Entity equipment.",
+            "Remember that access is essential to keep powerlines and equipment safe and reliable. If you need to build close to overhead lines on a private property, they may need to be placed underground or moved."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "In construction, demolition or removal work"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Contact the network operator directly for advice at the planning stage of any construction or demolition activity. If any electricity services need to be upgraded, relocated, disconnected or de-energised, a formal request needs to be submitted well in advance of the work commencing.",
+            "Do not start any work near any Electrical Entity equipment and do not demolish any structure where any Electrical Entity equipment is located, until it has been positively confirmed that this equipment has been made safe."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "images/buildingconstruct2.webp",
+          "alt": "An excavator next to a power pole it has knocked over, with the lines pulled down"
+        },
+        {
+          "type": "link",
+          "label": "What to do if your excavator brings down powerlines",
+          "target": {
+            "kind": "page",
+            "page": "exit-excavator"
+          },
+          "style": "black",
+          "icon": "question"
+        },
+        {
+          "type": "stay-call-wait",
+          "vehicle": "excavator"
+        }
+      ]
+    },
+    {
+      "slug": "industry-cane",
+      "title": "Cane Industry",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Working in close proximity to powerlines, above or below the ground, has its hazards.</p><p>Each year, the workers in the Cane Industry come in contact with electricity assets.</p><p>This includes contact with poles, wires and pillar boxes by vehicles, the loads they are carrying or their associated plant. Contact can occur during harvesting, spraying, moving machinery and plant from one location to another or when irrigating.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/sugarcane1.webp",
+          "alt": "A cane harvester loading cut sugarcane into a haulout"
+        },
+        {
+          "type": "heading",
+          "text": "Before you start work"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Before starting work, take the time to plan. Visit lookupandlive.com.au - our powerline planning map to identify powerline locations and make a plan to work safe.",
+            "Talk to the person in control of the property about any work areas which may be hazardous.",
+            "Know the location of overhead and underground powerlines, poles and stays on the property and their proximity to your work.",
+            "Complete a hazard assessment for each paddock and piece of machinery to be used.",
+            "Install visual markers in any areas where electrical hazards are identified prior to commencing work. Vision can be obstructed by machinery blind spots.",
+            "Monitor weather conditions closely as powerlines can sway in winds, sag as temperature increases and are difficult to see at dawn and dusk.",
+            "Be aware of reduced powerline heights resulting from damage, often indicated by uneven powerlines, excessive sag or slack stays.",
+            "Stay well clear of damaged powerlines and report any damage immediately on triple zero (<a href=\"tel:000\">000</a>).",
+            "Ensure operators are aware of the height of their machinery in both stowed and working positions.",
+            "Monitor closely any machinery being operated to ensure required powerline exclusion zone clearances are maintained.",
+            "Ensure all farm workers know the emergency procedures applicable for the work being carried out and the relevant emergency contacts."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Practice safe work habits"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identify all electrical hazards, assess the risks, establish and introduce control measures, and review control measures periodically. Control measures may include but may not be restricted to:"
+          ]
+        },
+        {
+          "type": "list",
+          "style": "dash",
+          "items": [
+            "Appropriate signage at least 10 metres either side of powerlines.",
+            "Visual indicators such as rotamarkers fitted to the powerlines (contact the network operator for advice).",
+            "Ground barriers where possible.",
+            "Informing workers of required work practices."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Assign a safety observer to each work team to guide machinery movements near overhead powerlines.",
+            "Ensure required exclusion zone clearances between machinery and powerlines are maintained.",
+            "Lower the ram/tramper to the transport position when relocating cotton module makers.",
+            "Build modules well away from overhead powerlines.",
+            "Make boll buggy pick-ups well clear of overhead powerlines.",
+            "Lower the bars on top of cotton pickers when relocating from paddock to paddock and farm to farm.",
+            "Carry out maintenance and storage activities well away from powerlines.",
+            "Contact the network operator directly about marking powerlines and power poles on your property"
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Transporting a high load?"
+        },
+        {
+          "type": "text",
+          "html": "<p>If the height of your load or plant exceeds 4.6 metres, you are transporting a high load.</p><p>It’s essential that you submit a Notification to Transport High Loads form. You will be required to know your load dimensions (vehicle and load), proposed route, and times for transport. The network operator will scope and assess the route to ensure the high load will not contact overhead powerlines.</p><p>Before any person or company can transport a high load, authorisation to travel must be received in writing from the network operator.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/highload1.webp",
+          "alt": "Diagram: a truck carrying a cane harvester. Permit required if transit height exceeds 4.6m"
+        },
+        {
+          "type": "link",
+          "label": "More information can be found in our High Loads Section",
+          "target": {
+            "kind": "page",
+            "page": "transporting-high-load"
+          }
+        },
+        {
+          "type": "link",
+          "label": "What to do if your harvester brings down powerlines",
+          "target": {
+            "kind": "page",
+            "page": "exit-harvester"
+          },
+          "style": "black",
+          "icon": "question"
+        },
+        {
+          "type": "stay-call-wait",
+          "vehicle": "harvester"
+        }
+      ]
+    },
+    {
+      "slug": "industry-cotton",
+      "title": "Cotton Industry",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Working in close proximity to powerlines, above or below the ground, has its hazards.</p><p>Each year, the workers in the Cotton Industry come in contact with electricity assets.</p><p>This includes contact with poles, wires and pillar boxes by vehicles, the loads they are carrying or their associated plant. Contact can occur during harvesting, spraying, moving machinery and plant from one location to another or when irrigating.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/cotton1.webp",
+          "alt": "A cotton picker unloading into a module builder beneath overhead powerlines"
+        },
+        {
+          "type": "heading",
+          "text": "Before you start work"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Before starting work, take the time to plan. Visit lookupandlive.com.au - our powerline planning map to identify powerline locations and make a plan to work safe.",
+            "Talk to the person in control of the property about any work areas which may be hazardous.",
+            "Know the location of overhead and underground powerlines, poles and stays on the property and their proximity to your work.",
+            "Complete a hazard assessment for each paddock and piece of machinery to be used.",
+            "Install visual markers in any areas where electrical hazards are identified prior to commencing work. Vision can be obstructed by machinery blind spots.",
+            "Monitor weather conditions closely as powerlines can sway in winds, sag as temperature increases and are difficult to see at dawn and dusk.",
+            "Be aware of reduced powerline heights resulting from damage, often indicated by uneven powerlines, excessive sag or slack stays.",
+            "Stay well clear of damaged powerlines and report any damage immediately on triple zero (<a href=\"tel:000\">000</a>).",
+            "Ensure operators are aware of the height of their machinery in both stowed and working positions.",
+            "Monitor closely any machinery being operated to ensure required powerline exclusion zone clearances are maintained.",
+            "Ensure all farm workers know the emergency procedures applicable for the work being carried out and the relevant emergency contacts."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Practice safe work habits"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identify all electrical hazards, assess the risks, establish and introduce control measures, and review control measures periodically. Control measures may include but may not be restricted to:"
+          ]
+        },
+        {
+          "type": "list",
+          "style": "dash",
+          "items": [
+            "Appropriate signage at least 10 metres either side of powerlines.",
+            "Visual indicators such as rotamarkers fitted to the powerlines (contact the network operator for advice).",
+            "Ground barriers where possible.",
+            "Informing workers of required work practices."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "Assign a safety observer to each work team to guide machinery movements near overhead powerlines.",
+            "Ensure required exclusion zone clearances between machinery and powerlines are maintained.",
+            "Lower the ram/tramper to the transport position when relocating cotton module makers.",
+            "Build modules well away from overhead powerlines.",
+            "Make boll buggy pick-ups well clear of overhead powerlines.",
+            "Lower the bars on top of cotton pickers when relocating from paddock to paddock and farm to farm.",
+            "Carry out maintenance and storage activities well away from powerlines.",
+            "Contact the network operator directly about marking powerlines and power poles on your property."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Transporting a high load?"
+        },
+        {
+          "type": "text",
+          "html": "<p>If the height of your load or plant exceeds 4.6 metres, you are transporting a high load.</p><p>It’s essential that you submit a Notification to Transport High Loads form. You will be required to know your load dimensions (vehicle and load), proposed route, and times for transport. The network operator will scope and assess the route to ensure the high load will not contact overhead powerlines.</p><p>Before any person or company can transport a high load, authorisation to travel must be received in writing from the network operator.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/highload3.webp",
+          "alt": "Diagram: a truck carrying a harvester. Permit required if transit height exceeds 4.6m"
+        },
+        {
+          "type": "link",
+          "label": "More information can be found in our High Loads Section",
+          "target": {
+            "kind": "page",
+            "page": "transporting-high-load"
+          }
+        },
+        {
+          "type": "link",
+          "label": "What to do if your harvester brings down powerlines",
+          "target": {
+            "kind": "page",
+            "page": "exit-harvester"
+          },
+          "style": "black",
+          "icon": "question"
+        },
+        {
+          "type": "stay-call-wait",
+          "vehicle": "harvester"
+        }
+      ]
+    },
+    {
+      "slug": "industry-irrigators",
+      "title": "Irrigators",
+      "blocks": [
+        {
+          "type": "image",
+          "src": "images/irrigator1.webp",
+          "alt": "A centre pivot irrigator with overhead powerlines behind it"
+        },
+        {
+          "type": "heading",
+          "text": "Exclusion zone"
+        },
+        {
+          "type": "text",
+          "html": "<p>An exclusion zone is a safety envelope around an overhead powerline. Exclusion zones keep people, operating plant, and vehicles a safe distance from energised overhead powerlines. No part of a worker, operating plant, or a vehicle should enter an exclusion zone while the overhead powerline is energised (live).</p><p>Exclusion zone measurements depend on the voltage of the powerline, type of work being performed, and qualifications of people involved.</p><p>Generally, workers and their equipment must maintain exclusion zones around powerlines as follows:</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "3 metres for voltages up to 132kV",
+            "6 metres for voltages up to 330kV"
+          ]
+        },
+        {
+          "type": "text",
+          "html": "<p>These exclusion zones can be reduced if the worker has been trained and approved as an Authorised Person. Contact the network operator directly for information on how to become an Authorised Person.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "industry-low-level-flying",
+      "title": "Low-Level Flying",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>There are electrical overhead powerlines criss-crossing the country. Often unnoticed, they are essential to provide electricity to our towns and communities. Contact with overhead powerlines can cause serious injury or death.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Understand the electricity network"
+        },
+        {
+          "type": "text",
+          "html": "<p>Powerlines have many different configurations ranging from multiple high voltage cables supported on large towers to a Single Wire Earth Return (SWER) system. SWER system spans can be of up to 400 metres and are particularly hazardous to pilots as cables and poles can be difficult to see.</p><p>Buildings such as houses and sheds are likely to have power connected through overhead structures. Roads may also provide a convenient path for powerlines. By identifying at least two poles, a pilot can gauge the path of the cable. Insulators on poles generally run in the same direction as the cable and may assist in identifying the number of cables and their direction. Understanding how to read powerline hardware on utility structures is a core skill for low-level flying crews.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/flying1.webp",
+          "alt": "A crop-dusting plane spraying low over a field, near a power pole and powerline markers"
+        },
+        {
+          "type": "heading",
+          "text": "Practice safe work habits"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Before starting work, take the time to plan. Visit lookupandlive.com.au - our powerline planning map to identify powerline locations and make a plan to work safe.",
+            "Conduct a pre-flight briefing and do a pre-flight reconnaissance.",
+            "Apply appropriate flying techniques.",
+            "Maintain situational awareness for co-pilots and crew.",
+            "Read the physical structure indicators, e.g. poles and insulators and identify verbally all structures if flying with others.",
+            "Know the location of powerlines on and around the property or the area you are flying in.",
+            "Consider weather conditions.",
+            "Guard against deviating from low-flying routes and areas that have been previously checked for powerlines and other cables.",
+            "Cross over powerlines at poles or structures rather than mid–span where possible.",
+            "Be aware of reduced powerline heights resulting from damage, often indicated by uneven cables, excessive sag, or slack stays.",
+            "Stay well clear of damaged powerlines and report any damage immediately on triple zero (<a href=\"tel:000\">000</a>).",
+            "Request Installation of rotamarkers on overhead powerlines and stay wires where low-level flying operations occur regularly.",
+            "Request permission to paint poles to highlight structures.",
+            "Provide ground barriers to warn crew of the presence of powerlines and electrical infrastructure, where appropriate.",
+            "Ensure all new members of the crew are inducted on the risks so they understand potential electrical hazards with powerlines."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "What to do if contact with powerlines occurs"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Follow your pilot’s training if contact with powerlines occurs. Be aware that there is an elevated risk of fire from fuel in an electrical accident.",
+            "Assume that powerlines or cables are ‘live’, even if they are not sparking.",
+            "Don’t touch overhead powerline cables.",
+            "Call triple zero (<a href=\"tel:000\">000</a>) immediately to report powerlines down and a life-threatening situation.",
+            "Stay inside the cabin, unless it is unsafe to do so. Occupants should not leave their aircraft until the power is switched off, and they have been given the all clear by an authorised electricity distribution employee.",
+            "Keep bystanders at least 10 metres away from the aircraft and anything else in contact with the powerlines. A potentially dangerous electrical field will be created around anything in contact with the powerline."
+          ]
+        },
+        {
+          "type": "text",
+          "html": "<p>If immediate evacuation of aircraft is necessary:</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Jump well clear ensuring you land with your feet together. Be careful not to stumble or fall and don’t touch the aircraft and the ground at the same time.",
+            "Jump or shuffle away with your feet together until you are at least 10 metres clear of the aircraft, powerlines or anything else in contact with them.",
+            "Once clear, DO NOT go back to the aircraft for any reason.",
+            "Don’t try to be a hero. Never approach, attempt to rescue or allow others to approach an aircraft in contact with powerlines."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Marking powerlines"
+        },
+        {
+          "type": "heading",
+          "text": "Aircraft warning markers",
+          "level": 3
+        },
+        {
+          "type": "text",
+          "html": "<p>Powerline warning markers should be installed where regular low-level flying operations take place. Refer to AS 3891. The marker’s colour should be chosen for visibility and contrast with the surrounding background.</p><p>Red and white rotamarkers are the standard powerline markers used by Energex and Ergon Energy. Markers of different colours may be requested to provide contrast when viewed in different directions or conditions (e.g. white and orange alternated).</p>"
+        },
+        {
+          "type": "link",
+          "label": "More information on powerline markers can be found in our Marking overhead powerlines and electrical assets",
+          "target": {
+            "kind": "page",
+            "page": "powerline-markers"
+          }
+        },
+        {
+          "type": "heading",
+          "text": "Pole marking",
+          "level": 3
+        },
+        {
+          "type": "text",
+          "html": "<p>Painting the lower section of the pole up to 2.4 metres above ground with white and red alternating 600mm bands of paint can also provide a visual indication of structures.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<p><strong><em>Contact us for safety advice about marking powerlines and poles on your property.</em></strong></p>"
+        },
+        {
+          "type": "heading",
+          "text": "Responsibilities:",
+          "level": 3
+        },
+        {
+          "type": "text",
+          "html": "<p>The responsibility for marking overhead powerlines, cables and structures should be as follows:</p>"
+        },
+        {
+          "type": "list",
+          "style": "letter-in-brackets",
+          "items": [
+            "The person requesting planned low-level flying operations (e.g. the landowner) is responsible for requesting installation of markers.",
+            "The pilot or pilot’s delegate should be satisfied as to the need for and effectiveness of markers prior to commencing low-level operations.",
+            "Aerial markers should only be installed, maintained, or removed by your local Electrical Authority."
+          ]
+        },
+        {
+          "type": "box",
+          "html": "<p><strong>More information on avoiding contact with powerlines can be found at:</strong></p><p><a href=\"https://www.atsb.gov.au\">www.atsb.gov.au</a></p><p><a href=\"https://www.casa.gov.au\">www.casa.gov.au</a></p><p><a href=\"https://aaaa.org.au\">www.aaaa.org.au</a></p>"
+        }
+      ]
+    },
+    {
+      "slug": "industry-plumbers",
+      "title": "Plumbing Industry",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Under normal conditions, electricity that enters an electrical installation to power equipment will return to the local substation transformer via the neutral conductor. However, under certain fault conditions, metal water pipes may provide the return electrical path instead of the neutral conductor. Plumbers working on metal water pipes under these conditions are at risk of serious, even fatal, electric shock.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/plumbing1.webp",
+          "alt": "A plumber working on a pipe with a pipe wrench"
+        },
+        {
+          "type": "heading",
+          "text": "Working on metal water services"
+        },
+        {
+          "type": "text",
+          "html": "<p>Before installing water meters or repairing or replacing metal water services, plumbers and their assistants should plan and use a safe system of work to prevent or minimise the risk of electric shock.</p><p>The safe system of work you use should suit the particular situation and should include the following procedures (refer to AS/NZS 3500.1 Plumbing and drainage Part 1: Water services).</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Plan"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Plan the job by assessing electrical and other risks and taking suitable steps to stay safe."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Do"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Where possible, switch off the electrical main switch, or switches, at the premises and attach a tag reading ‘DANGER DO NOT SWITCH ON’.",
+            "Take additional steps to reduce electrical risk. Your work methods should avoid skin contact with metallic water pipes being worked on e.g. gloves and long trousers.",
+            "Thoroughly clean a section of metal pipe on each side of the length being repaired.",
+            "Attach an insulated bridging conductor—stranded copper cable capable of carrying 70 amperes that has appropriate end clamps with insulated handgrips—to span the length of pipe to be cut."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Check"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Check to ensure the clamps make good electrical contact with the metal pipe.",
+            "Check to ensure the bridging conductor remains undisturbed until the work is finished.",
+            "Where any existing metallic service pipe is to be replaced by non-metallic pipe or fittings, have the electrical installation checked by a licensed electrical contractor and modified if necessary to ensure the electrical earthing system for the premises remains effective."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Check"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Notify the local electricity distributor and the householder immediately if you see anything abnormal such as electric sparks or you feel an electric shock."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "images/plumbing2.webp",
+          "alt": "Drawing: a plumber in gloves cutting a metal water pipe, with a bridging cable clamped to the pipe either side of the cut"
+        }
+      ]
+    },
+    {
+      "slug": "industry-trucking",
+      "title": "Trucking Industry",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Working in close proximity to powerlines, above or below the ground, has its hazards.</p><p>Each year, the road transport industry has the highest impact on electricity assets.</p><p>This includes contact with poles, wires and pillar boxes by vehicles, the loads they are carrying or their associated plant. Contact can also occur when working aloft on these vehicles either when tying down loads, fastening tarps or checking livestock.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/trucking1.webp",
+          "alt": "A truck driver in his cab, with a power pole and powerlines overhead"
+        },
+        {
+          "type": "heading",
+          "text": "Practice safe work habits"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Before starting work, take the time to plan. Visit lookupandlive.com.au - our powerline planning map to identify powerline locations and make a plan to work safe.",
+            "Check for poles and overhead powerlines before going aloft on your vehicle.",
+            "Carry out maintenance and storage activities well away from powerlines.",
+            "Lower plant to the transport position when moving or relocating. Never drive with plant elevated.",
+            "Ensure that your load height is correct and does not exceed 4.6 metres.",
+            "Don’t use “bumpers” or Polypipe to keep wires from snagging the load.",
+            "Contact the network operator directly for powerline heights - never try to measure them yourself. Any contact with powerlines can cause shocks or electrocution.",
+            "Be sure to check before reversing as underground pillar boxes can be difficult to see and are easily run over by cars and trucks.",
+            "Ensure machinery is checked after any contact with overhead wires. Tyres can be damaged and have the potential to explode.",
+            "Stay well clear of damaged powerlines and report any damage immediately on triple zero (<a href=\"tel:000\">000</a>)."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Transporting a high load?"
+        },
+        {
+          "type": "text",
+          "html": "<p>If the height of your load or plant exceeds 4.6 metres, you are transporting a high load.</p><p>It’s essential that you submit a Notification to Transport High Loads form. You will be required to know your load dimensions (vehicle and load), proposed route, and times for transport. The network operator will scope and assess the route to ensure the high load will not contact overhead powerlines.</p><p>Before any person or company can transport a high load, authorisation to travel must be received in writing from the network operator.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/trucking2.webp",
+          "alt": "Diagram: a truck carrying a house. Permit required if transit height exceeds 4.6m"
+        },
+        {
+          "type": "link",
+          "label": "More information can be found in our High Loads Section",
+          "target": {
+            "kind": "page",
+            "page": "transporting-high-load"
+          }
+        },
+        {
+          "type": "heading",
+          "text": "Before climbing your vehicle"
+        },
+        {
+          "type": "text",
+          "html": "<p>Check for poles and overhead powerlines before going aloft on your vehicle to tie down loads, fasten tarps or check livestock.</p><p>Remember that powerlines can be difficult to see at dawn and dusk.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/exclusionzones2.webp",
+          "alt": "Diagram: a person standing on top of a livestock truck next to a power pole. Exclusion zone 3m, up to 132kV. Permit required if transit height exceeds 4.6m"
+        },
+        {
+          "type": "link",
+          "label": "More information can be found in our Exclusion Zone Section",
+          "target": {
+            "kind": "page",
+            "page": "exclusion-zone"
+          }
+        },
+        {
+          "type": "link",
+          "label": "What to do if your truck brings down powerlines",
+          "target": {
+            "kind": "page",
+            "page": "exit-truck"
+          },
+          "style": "black",
+          "icon": "question"
+        },
+        {
+          "type": "stay-call-wait",
+          "vehicle": "truck"
+        }
+      ]
+    },
+    {
+      "slug": "info",
+      "title": "Welcome",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<p>The Look Up and Live app is a powerline safety tool used to promote adequate planning and raising awareness of safe working requirements near powerlines.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/lual-powered-by-byda.webp",
+          "alt": "Look up and Live. Powered by Before You Dig."
+        },
+        {
+          "type": "video",
+          "src": "videos/LUAL.mp4",
+          "poster": "images/lual-poster.webp"
+        },
+        {
+          "type": "heading",
+          "text": "Disclaimer"
+        },
+        {
+          "type": "text",
+          "html": "<p>To learn more about working safely near Australia’s utility network, you can visit the Before You Dig Australia Website <a href=\"https://www.byda.com.au\">www.byda.com.au</a></p>"
+        },
+        {
+          "type": "text",
+          "html": "<p>The Look up and Live map is an interactive geospatial map that has been developed to display Australia’s above ground utility network information including sourced third-party information.</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "You acknowledge and accept the information displayed is intended as general in nature, may be based on assumptions, and the information contained is not solely controlled by the Network Providers, and may change with time and may not necessarily be complete or accurate.",
+            "The Network Providers make no representation or warranty as to the accuracy or completeness of any information displayed in the application, and you may find that the actual network, and other conditions, differ from the content displayed. You must exercise appropriate judgement, and we recommend you seek independent confirmation of information accuracy and do not solely rely on the content of this application for any purpose, including in assessing or discharging your obligations under the relevant gas and electricity safety acts and regulations in your state or territory, or other energy, utility or workplace health and safety laws."
+          ]
+        },
+        {
+          "type": "list",
+          "style": "dash",
+          "items": [
+            "Information contained in this application can be up to 12 months old and primarily displays the overhead electricity network. Parts of the network such as the underground network and service lines are not displayed.",
+            "The Network Providers do not accept any responsibility for the accuracy of data and information that is sourced or provided by third parties and in republishing the data and information we do not assess it for accuracy."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "To the extent permitted by law, the total liability of the Network Providers, for any claims under these terms is limited to the amount you paid us to use the application (or, if we choose, to supplying you the services again). We will not be liable for any loss or damage that is not reasonably foreseeable, or any loss, damage or inconvenience caused, which any person or entity may suffer in connection with the use of, or reliance on, the information contained in the Look up and Live map.",
+            "You agree to indemnify the Network Providers, their employees, agents, suppliers, contractors and consultants against all liabilities, costs, claims, expenses or loss (including without limitation any special, incidental, consequential, indirect or punitive damages, costs, expenses or losses of any kind, loss of profit (whether direct or indirect), loss of revenue, loss of management time, opportunity costs, failure to realise anticipated savings or financial loss) suffered by the Network Providers, their employees, agents, suppliers, contractors or consultants arising from:"
+          ]
+        },
+        {
+          "type": "list",
+          "style": "dash",
+          "items": [
+            "any incorrect or incomplete information provided by the Network Providers or the failure to provide information by the Network Providers; and",
+            "the failure to use or correctly or accurately interpret information supplied to you by the Network Providers."
+          ]
+        },
+        {
+          "type": "list",
+          "items": [
+            "To the extent permitted by law, we exclude all warranties.",
+            "This application can be offline at any time with no warranties as to when the application can be restored",
+            "These terms are governed by the laws of the State of Victoria, Australia."
+          ]
+        },
+        {
+          "type": "link",
+          "label": "Privacy Policy",
+          "target": {
+            "kind": "url",
+            "url": "https://www.byda.com.au/privacy-policy/"
+          },
+          "style": "black",
+          "icon": "privacy"
+        },
+        {
+          "type": "link",
+          "label": "Contact Us",
+          "target": {
+            "kind": "url",
+            "url": "https://www.byda.com.au/contact/"
+          },
+          "style": "black",
+          "icon": "email"
+        }
+      ]
+    },
+    {
+      "slug": "powerline-markers",
+      "title": "Powerline Markers",
+      "blocks": [
+        {
+          "type": "heading",
+          "text": "Overhead warning markers"
+        },
+        {
+          "type": "text",
+          "html": "<p>The local network operator will have a range of warning markers that can be installed to help identify overhead powerlines in areas where machinery is frequently operated.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/marking.webp",
+          "alt": "Photo: powerline warning markers on a cable: a red marker, an orange ball, an orange flag and a striped sleeve."
+        },
+        {
+          "type": "heading",
+          "text": "Aircraft warning markers"
+        },
+        {
+          "type": "text",
+          "html": "<p>Cable markers should be installed where regular low-level flying operations take place. Refer AS 3891 – 2008 Air navigation - Cables and their supporting structures - Marking and safety requirements.</p>"
+        },
+        {
+          "type": "video",
+          "src": "videos/LUAL_Powermarkers.mp4",
+          "poster": "images/powerline-markers-poster.webp"
+        },
+        {
+          "type": "text",
+          "html": "<p>The red and white rotamarker is the standard powerline marker. Markers of different colours may be used to provide contrasts when viewed in different directions or conditions e.g. white and orange alternated.</p>"
+        },
+        {
+          "type": "link",
+          "label": "Rotamarker Estimation Tool",
+          "target": {
+            "kind": "tool",
+            "tool": "rotamarker-estimation"
+          },
+          "style": "black",
+          "icon": "tool"
+        },
+        {
+          "type": "heading",
+          "text": "Responsibilities"
+        },
+        {
+          "type": "text",
+          "html": "<p>The responsibility for marking overhead powerlines, cables and structures should be as follows:</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "The person requesting planned low-level flying operations e.g. the landowner, is responsible for requesting installation of markers.",
+            "The pilot or pilot’s delegate should be satisfied as to the need for and effectiveness of markers prior to commencing low-level operations.",
+            "Aerial markers should only be installed, maintained, or removed by the network operator."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "safety-advice",
+      "title": "Safety Advice",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<p>Safety of the community and those working around powerlines is of high importance. Whether you’re working on a building site, a farm, driving a truck or operating machinery, there is the potential for accidental powerline contact. If you require safety advice specific to your worksite, always contact the network operator directly and follow their instructions and permit requirements.</p>"
+        }
+      ]
+    },
+    {
+      "slug": "structures",
+      "title": "Structures",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Working in close proximity to powerlines, above or below the ground, has its hazards. It is extremely dangerous and potentially life threatening to allow anything to come in close proximity to the conductors on a powerline.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/buildstructbillboard1.webp",
+          "alt": "Photo: a large billboard on a pole beside overhead powerlines."
+        },
+        {
+          "type": "heading",
+          "text": "Ensure you’re in the clear"
+        },
+        {
+          "type": "text",
+          "html": "<p>Before starting work, take the time to plan. Visit lookupandlive.com.au - our powerline planning map to identify powerline locations and make a plan to work safe.</p><p>When planning and before the commencement of work, regardless of whether or not local council approval is required, it is essential to confirm that the proposed construction work e.g. building, structure, sign, crane, scaffold, does not breach the minimum statutory clearance distances that must be maintained from nearby Electricity Entity overhead or underground powerlines.</p><p>Refer to your state's relevant Electricity Safety regulations for information on statutory clearance distances that must be complied with.</p><p>Minimum distances from the closest powerline to the building or other structures must be maintained during strong winds or high operating temperatures. Under these conditions, the powerline can swing or sag considerably towards the building or structure. It is important to allow for these situations at the time of planning, so contact with powerlines does not occur.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/buildstructbillboard2.webp",
+          "alt": "Diagram: powerlines sag (vertical drop) in heat and sway (horizontal swing) in the wind."
+        },
+        {
+          "type": "text",
+          "html": "<p>Contact the Electricity Entity when planning construction work near powerlines or if it appears that powerlines are closer to a building or structure than the minimum statutory clearance. Installation of powerline markers should be considered to highlight powerlines.</p><p>Situations where minimum safety clearances should be considered include:</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Knock down and rebuilds, where a small, single story home is replaced by a larger or double story home, or where land is rezoned to allow multi-story construction, such as apartments or town houses",
+            "Moving the location of a driveway or building driveways close to pillars or poles",
+            "Installing a tall antenna in areas where broadcast reception is poor",
+            "Erecting a flagpole or shade sails",
+            "Any building work near overhead or underground powerlines",
+            "Erecting a cubby house",
+            "Raising the ground level below powerlines",
+            "Erecting metal fences or scaffolding close to poles or powerlines",
+            "Excavating near poles, stay wires or where electricity assets run underground",
+            "Using a crane near overhead powerlines",
+            "Erecting or maintaining signs or billboards",
+            "Erecting sheds",
+            "Erecting carports below points of attachments."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Working safely near powerlines"
+        },
+        {
+          "type": "text",
+          "html": "<p>Contact the Electricity Entity for safety advice on working around electrical parts and ensure exclusion zones are maintained.</p><p>The point of attachment is where the electrical service wires attach to a home or building. When work is being carried out near the point of attachment, special care must be taken to avoid contact with these electrical wires, the mounting bracket and the mains box.</p><p>Care must be taken when:</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Cleaning leaves from guttering",
+            "Painting gutters, fascias and eaves",
+            "Replacing the roofing or the guttering",
+            "Pruning trees and shrubs (particularly around service wires)."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "images/buildstructbillboard3.webp",
+          "alt": "Diagram: a person on a ladder at a billboard near a powerline with a 3 m exclusion zone up to 132 kV."
+        },
+        {
+          "type": "link",
+          "label": "More information can be found in our Exclusion Zone Section",
+          "target": {
+            "kind": "page",
+            "page": "exclusion-zone"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "transporting-high-load",
+      "title": "High Loads",
+      "blocks": [
+        {
+          "type": "text",
+          "html": "<p>If the height of your load or plant exceeds 4.6 metres, you are transporting a high load. It’s essential that you submit a Notification to Transport High Loads form. You will be required to know your load dimensions (vehicle and load), proposed route and times for transport.</p><p>The network operator will scope and assess the route to ensure the high load will not contact overhead powerlines. Before any person or company can transport a high load, authorisation to travel must be received in writing from the network operator.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/highload1.webp",
+          "alt": "Diagram: a harvester on a low loader. A permit is required if the transit height exceeds 4.6 m."
+        },
+        {
+          "type": "image",
+          "src": "images/highload2.webp",
+          "alt": "Diagram: a truck carrying large round bales. A permit is required if the transit height exceeds 4.6 m."
+        },
+        {
+          "type": "image",
+          "src": "images/highload3.webp",
+          "alt": "Diagram: a cotton picker on a low loader. A permit is required if the transit height exceeds 4.6 m."
+        },
+        {
+          "type": "image",
+          "src": "images/highload4.webp",
+          "alt": "Diagram: an excavator on a low loader. A permit is required if the transit height exceeds 4.6 m."
+        }
+      ]
+    },
+    {
+      "slug": "trees-and-powerlines",
+      "title": "Trees & Powerlines",
+      "blocks": [
+        {
+          "type": "box",
+          "html": "<p>Trees enhance our homes and provide shade and privacy. However, trees coming into contact with powerlines can interrupt power supply and bring powerlines down, particularly during storms and high winds. To help prevent this happening and to ensure the safety and reliability of your power supply, you need to plant smart.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/treespower1.webp",
+          "alt": "Photo: tree leaves growing next to powerline insulators on a pole."
+        },
+        {
+          "type": "heading",
+          "text": "Planting guidelines"
+        },
+        {
+          "type": "text",
+          "html": "<p>Always take care when planting and maintaining vegetation near powerlines and service lines. That small touch you add to your front garden or footpath could grow to be a big problem.</p><p>Consider how high and how wide your tree will grow. If planting near powerlines, choose a low-growing, powerline-friendly species.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/treespower2.webp",
+          "alt": "Diagram: trees planted away from a power pole: a 4 m tree 5 m from the pole, and taller trees further away."
+        },
+        {
+          "type": "heading",
+          "text": "Always think before you plant"
+        },
+        {
+          "type": "text",
+          "html": "<p>Before starting work, take the time to plan. Visit lookupandlive.com.au - our powerline planning map to identify powerline locations and make a plan to work safe.</p>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Plan where you are going to plant. Plants must be at least three metres from power poles. Plant shrubs or small trees one metre inside the kerb where the council footpath is a minimum of four metres wide. Allow for at least a two metre gap between the service wire to your home and the height of mature trees",
+            "If your tree will grow to five meters, you should plant it five meters away from the power pole. If it will grow to ten meters, it should be ten meters away. Keeping trees away from powerlines helps keep the power on and you safe",
+            "Do not plant climbing trees or plants near the base of power poles, they can grow up into the powerlines and pose a safety risk or interrupt power",
+            "Consider which type of tree you should plant. Choose a powerline-friendly plant. Check with your local plant nursery or council for recommendations",
+            "Check with your council for planting guidelines, especially if planning to plant on your council footpath. Residents who wish to plant trees on council controlled land in locations other than streets or council footpaths, may need written permission",
+            "Consider the location of overhead and underground services, including the service line to your home. Request your free underground utility plans from Before You Dig Australia via the website byda.com.au and follow the prompts to “get free plans”",
+            "Check the visibility from your driveway, intersection sight lines and access to your property",
+            "Consider pedestrian traffic, mail service and garbage truck access",
+            "Check required clearance from streetlights."
+          ]
+        },
+        {
+          "type": "heading",
+          "text": "Vegetation maintenance program"
+        },
+        {
+          "type": "text",
+          "html": "<p>As part of a carefully controlled annual cycle, we employ qualified staff and contractors specifically trained to manage the vegetation growing close to and underneath powerlines.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Trimming trees, shrubs and plants",
+          "level": 3
+        },
+        {
+          "type": "text",
+          "html": "<p>Trimming trees, shrubs and plants is an essential part of maintaining a safe and reliable electricity supply. It’s important that a safe distance be maintained between powerlines and surrounding trees and shrubs. Where possible, branches are carefully trained to grow away from powerlines and correct pruning to the nearest branch collar or growth point is applied to enhance the health of the trees. However, in some cases it may be necessary for us to remove large trees and shrubs.</p>"
+        },
+        {
+          "type": "heading",
+          "text": "On your property",
+          "level": 3
+        },
+        {
+          "type": "text",
+          "html": "<p>Most of the time, the nature strip outside your property will provide adequate access for us to trim roadside trees and shrubs, to provide a safe and reliable electricity supply. However, at times, we may need to trim over your property line or go onto your property if for instance, a tree from your property has grown into the safe clearance space around powerlines in the street. This work is normally carried out for customers free of charge.</p><p>However, any other trimming of trees, shrubs and plants required on private property to maintain safety clearances around the electricity service line, which runs from the roadside power pole to your property, is generally the responsibility of the owner or occupier.</p>"
+        },
+        {
+          "type": "box",
+          "html": "<p>Get a professional. Never attempt to trim trees or other vegetation near powerlines yourself. Always call a professional tree trimmer to trim any trees near powerlines</p>"
+        },
+        {
+          "type": "heading",
+          "text": "Trees are good conductors"
+        },
+        {
+          "type": "text",
+          "html": "<p>If tree branches or foliage is touching overhead powerlines, voltage can pass through the tree, making it ‘live’ with electricity. Hazardous voltage may also be present for some distance around the base of the tree at ground level.</p>"
+        },
+        {
+          "type": "text",
+          "html": "<p>Stay at least 10 metres away from the tree. Warn others to stay well away and call triple zero (<a href=\"tel:000\">000</a>) to report it immediately.</p>"
+        },
+        {
+          "type": "image",
+          "src": "images/treespower3.webp",
+          "alt": "Diagram: tree foliage touching live conductors. Hazardous voltage spreads through the ground around the base of the tree (the Surface Voltage Gradient area), and a person nearby could be affected by step potential."
+        }
+      ]
+    }
+  ]
+}
