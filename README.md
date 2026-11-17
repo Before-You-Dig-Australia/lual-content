@@ -1,8 +1,8 @@
 # Look Up and Live: test content
 
-The Content Bundle that the Look Up and Live UAT builds fetch, for testing content updates before the Filament app exists. In production, Filament publishes to its own address (ADR 0006 in `lual-capacitor`).
+A Content Bundle for testing content updates in Look Up and Live before the Filament app exists.
 
-The UAT builds fetch `v1/bundle.json` from this repo's `main` branch each time the app opens or comes back to the foreground.
+The store builds fetch from `https://content.lookupandlive.com.au/v1/bundle.json` (ADR 0006 in `lual-capacitor`), which isn't hooked up yet. To test against this repo, build the app locally with `VITE_REMOTE_BUNDLE_URL=https://raw.githubusercontent.com/Before-You-Dig-Australia/lual-content/main/v1/bundle.json` in `lual-capacitor`'s `.env.local`, and take it out before any upload. The app fetches the bundle each time it opens or comes back to the foreground.
 
 ## To change the content
 
